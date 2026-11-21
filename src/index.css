@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bosque: #1B4332;
+  --color-salvia: #2D6A4F;
+  --color-agua: #0284C7;
+  --color-crema: #F8FAFC;
+  --color-tierra: #D97706;
+}
+
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 4.5rem; }
+body { @apply bg-crema text-slate-800 antialiased; }
